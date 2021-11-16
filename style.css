@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flexed {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    gap: 1.5rem;
+}
+
+.flexstart {
+    justify-content: flex-start;
+}
+
+.text {
+
+}
+
+.bolding {
+    font-weight: bold;
+}
+
+.spacing {
+    margin: 10px 0;
+}
+
+.ftop {
+    align-content: flex-start;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.container {
+    margin: 0 auto;
+    width: 900px;
+}
+
+header {
+    background-color: grey; 
+    padding: 10px 0;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+}
+
+ul {
+    list-style: none;
+}
+
+#log {
+    margin: 0rem 1rem;
+    background-color: dodgerblue;
+    color: white;
+    padding: 0.5rem;
+    width: 4rem;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 3px 3px black;
+}
+
+main {
+    flex: 2;
+}
+
+.dictcard {
+    padding: 1.5rem;
+    border: 3px solid black;
+}
+aside {
+    flex: 1;
+    height: 435px;
+}
+
+.sidebar {
+    height: 150px;
+    padding: 1.5rem;
+    border: 3px solid black;
+}
+
+.likebtn {
+    margin: 0rem 1rem;
+    background-color: gold;
+    color: black;
+    padding: 0.5rem;
+    width: 5rem;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 3px 3px black;
+}
+.defbtn {
+    margin: 0rem 1rem;
+    background-color: lightgreen;
+    color: black;
+    padding: 0.5rem;
+    width: 9rem;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 3px 3px black;
+}

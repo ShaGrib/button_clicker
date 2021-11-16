@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div>
+            <header>
+                <div class="container">
+                    <div class="flexed">
+                        <h1>Dojonary</h1>
+                            <input placeholder="Search" type="text" name="searchbar" id="searchbar">
+                            <button id="log" onclick="changeLog()">Login</button>               
+                    </div>
+                </div>
+            </header>
+            <div class="container flexed flexstart">
+                <main class="column">
+                    <div class="dictcard flexed flexstart">
+                        <div class="flexstart">
+                            <h1 class="bolding spacing">ninja</h1>
+                            <h3 class="spacing">noun</h3>
+                            <p class="spacing">Plural: ninjas</p>
+                            <button id="like" onclick="liked()" class="likebtn spacing" onclick="likecount"> 13 Likes</button>
+                        </div>
+                        <p>a practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjitsu</a></p>
+                    </div>
+                    <div class="dictcard flexed flexstart">
+                        <div class="flexstart">
+                            <h1 class="bolding spacing">ninja</h1>
+                            <h3 class="spacing">noun</h3>
+                            <p class="spacing">Plural: ninjas</p>
+                            <button id="like" onclick="liked()" class="likebtn spacing" onclick="likecount"> 37 Likes</button>
+                        </div>
+                        <p>a <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                    </div>
+                </main>
+                <aside class="">
+                    <div class="sidebar">
+                        <h3>Dojonary is defined by <span class="bolding">You</span></h3>
+                        <button onclick="remAddBtn(this)" class="defbtn">Add Definition</button>
+                    </div>
+                </aside>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+</body>
+</html>
